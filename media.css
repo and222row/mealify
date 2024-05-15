@@ -1,0 +1,127 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar .container .navbar-links {
+    display: none;
+  }
+  #ff {
+    display: block;
+  }
+  .fa-moon {
+    display: block;
+  }
+  .home-content {
+    margin-top: 10%;
+    width: 100%;
+  }
+  .home-img {
+    width: 100%;
+  }
+  .home .container {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .btn-group {
+    justify-content: center;
+    margin-block: 20px;
+  }
+  .section-1-chefs {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .chef {
+    width: 45%;
+  }
+  .gallery {
+    height: 1320px;
+  }
+  .photo {
+    width: 50%;
+  }
+  form .input-group input {
+    width: 100%;
+  }
+
+  .footer .container .about {
+    width: 45%;
+  }
+  .footer .container .subscribe {
+    width: 100%;
+    order: 2;
+  }
+  .footer .container .details {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+  #ff {
+    display: block;
+  }
+  .fa-moon {
+    display: none;
+  }
+  .home-content {
+    margin-top: 10%;
+    width: 100%;
+  }
+  .home-img {
+    width: 100%;
+  }
+  .home .container {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .btn-group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .section-1-content p {
+    font-size: 2.4rem;
+  }
+  .section-1-chefs {
+    flex-direction: column;
+  }
+  .gallery {
+    height: 100%;
+  }
+  .photo {
+    width: 100%;
+  }
+  .section-3-infos .info {
+    width: 100%;
+  }
+  form .input-group input {
+    width: 100%;
+  }
+
+  .footer .container {
+    flex-direction: column;
+  }
+  .footer .container .about {
+    width: 100%;
+  }
+  .footer .container .subscribe {
+    width: 100%;
+  }
+  .footer .container .subscribe .subscribe-submit .sunscription-group {
+    flex-direction: column;
+    gap: 10px;
+
+    button {
+      width: 100%;
+      text-align: center;
+      justify-content: center;
+    }
+  }
+  .footer .container .subscribe .subscribe-links ul li {
+    width: 45%;
+  }
+  .footer .container .details {
+    width: 100%;
+  }
+}
